@@ -1,0 +1,403 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ | CLEAR ALGRICULTURE</title>
+     <link rel="icon" href="img/logo3.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <div class="header--container">
+        <div class="header icon-close" onclick="close_nav()">
+          <img src="img/close.png" alt="" />
+        </div>
+        <div class="header--menu" onclick="open_nav()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="header--logo"><a href="index.html"><img src="img/logo3.png" alt="" /></a></div>
+        <div class="menu-wrapper-web">
+          <div class="menu-block">
+            <ul>
+              <li><a href="index.html" style="color: #37c105;">TRANG CHỦ</a></li>
+              <li><a href="">GIỚI THIỆU</a></li>
+              <li><a href="#">SẢN PHẨM</a></li>
+              <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header--icon">
+          <div class="search-open">
+            <div class="icon icon--search"><i class="fas fa-search"></i></div>
+          </div>
+          <div class="icon icon--shopping">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+          <div class="icon icon--profile" onclick="open_log()"><a><i class="fas fa-user"></a></i></div>
+        </div>
+      </div>
+      <div class="header--burgermenu-expand">
+        <div class="overlay-grey" onclick="close_nav()"></div>
+        <div class="menu-wrapper">
+          <div class="menu-block">
+            <ul>
+              <li><a href="index.html" style="color: red;">Trang chủ</a></li>
+              <li><a href="">Về Coca-Cola® Việt Nam</a></li>
+              <li><a href="cocaType.html">Thông tin sản phẩm</a></li>
+              <li><a href="brand.html">Thương hiệu</a></li>
+              <li><a href="cocaProduct.html">Cá nhân hóa</a></li>
+              <li><a href="Store.html">Cửa hàng</a></li>
+              <li><a href="account.html">Tài khoản</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main--container-firstBanner">
+        <img src="img/colorful-veggies-frame-with-copy-space.webp" alt="" />
+      </div>
+      <div class="main--container-secondBanner">
+        <div class="title h2--black">
+          <h1>Câu chuyện của Clear Algriculture</h1>
+        </div>
+        <div class="wrapper--about">
+          <div class="wrapper--about-block" >
+            <div class="title-block">
+              <span class = "title-block_quote">“</span>
+              <span class = "title-block_content">
+                Nông nghiệp áp dụng công nghệ cao, chất lượng, an toàn, minh bạch.
+              </span>
+            </div>
+            <div class="content-block">
+              Clear Algriculture là một trong những đơn vị tiên phong tại Việt Nam về nông nghiệp ứng dụng công nghệ cao. Chúng tôi hướng tới toàn bộ hệ thống nuôi trồng đều được quản lý tự động bằng phần mềm máy tính, nên sẽ hạn chế đến mức thấp nhất sức lao động của con người, đồng thời đảm bảo chất lượng các sản phẩm ở mức cao đạt tiêu chuẩn cho phép. Toàn bộ các sản phẩm do Clear Agriculture sản xuất đều có mã truy xuất nguồn gốc (QR code) để kiểm tra xuất xứ, quy trình sản xuất của sản phẩm.
+            </div>
+          </div>
+          <div class="wrapper--about-block">
+            Hệ thống được lắp đặt các sensor (cảm biến) kết nối qua phần mềm để đo đạc tất cả các thông số của đất, môi trường và đề xuất thời gian tưới, thời gian chiếu sáng, phun sương, màng che nắng và quạt thông gió phù hợp theo từng giai đoạn sinh trưởng của cây. Về chăn nuôi, giải pháp cảm biến tự động cho phép quản lý tất cả các khâu như hệ thống cho ăn, chiếu sáng, thu hoạch trứng, thu gom phân, sưởi ấm… chỉ qua một chiếc điện thoại thông minh, giúp tiết kiệm chi phí nhân sự, tăng cường khả năng giám sát 24/7.
+          </div>
+        </div>
+      </div>
+
+        <!-- <div class="wrapper--cokeDes">
+          
+          <div class="cokeDes-block"  onclick="location.href='cocaType.html';" style="cursor: pointer;">
+            <div class="cokeDes-block-img">
+              <img src="img/apple.jpeg" alt="" />
+            </div>
+            <div class="cokeDes-block-name"><h3>Coca-cola Original</h3></div>
+            <div class="cokeDes-block-button button--choose-black">
+              <button>CHỌN</button>
+            </div>
+            
+          </div>
+          
+          <div class="cokeDes-block" onclick="location.href='cocaType.html';" style="cursor: pointer;">
+            <div class="cokeDes-block-img">
+              <img src="img/cocaNoSugar.png" alt="" />
+            </div>
+            <div class="cokeDes-block-name"><h3>Coca-cola Zero</h3></div>
+            <div class="cokeDes-block-button button--choose-black">
+              <button>CHỌN</button>
+            </div>
+          </div>
+          
+          
+          <div class="cokeDes-block" onclick="location.href='cocaType.html';" style="cursor: pointer;">
+            <div class="cokeDes-block-img">
+              <img src="img/cocaCan.png" alt="" />
+            </div>
+            <div class="cokeDes-block-name"><h3>Coca-cola Energy</h3></div>
+            <div class="cokeDes-block-button button--choose-black">
+              <button>CHỌN</button>
+            </div>
+          </div>
+         
+          
+          <div class="cokeDes-block" onclick="location.href='cocaType.html';" style="cursor: pointer;">
+            <div class="cokeDes-block-img">
+              <img src="img/cocaCherry.png" alt="" />
+            </div>
+            <div class="cokeDes-block-name"><h3>Coca-cola Vanilla</h3></div>
+            <div class="cokeDes-block-button button--choose-black">
+              <button>CHỌN</button>
+            </div>
+          </div>
+          
+        </div> -->
+
+
+
+        <!-- tạm disable phần banner 3 -->
+
+      <!-- <div class="main--container-thirdBanner">
+        <div class="thirdBanner--block">
+          <div class="thirdBanner--block-img">
+            <img src="img/banner3_highTech.jpeg" alt="">
+          </div>
+          <div class="thirdBanner--block-content">
+            <h3 class="title-block_content">
+              Áp dụng Công nghệ cao và Tự động hóa
+            </h3>
+            <p class = "content-block">
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+          </div>
+        </div>
+        <div class="thirdBanner--block">
+          <div class="thirdBanner--block-img">
+            <img src="img/banner3_clearFood.jpeg" alt="">
+          </div>
+          <div class="thirdBanner--block-content">
+            <h3 class="title-block_content">
+              Áp dụng Công nghệ cao và Tự động hóa
+            </h3>
+            <p class = "content-block">
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+          </div>
+
+        </div>
+        <div class="thirdBanner--block">
+          <div class="thirdBanner--block-img">
+            <img src="img/banner3_highCapacity.jpg" alt="">
+          </div>
+          <div class="thirdBanner--block-content">
+            <h3 class="title-block_content">
+              Áp dụng Công nghệ cao và Tự động hóa
+            </h3>
+            <p class = "content-block">
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+          </div>
+        </div>
+        <div class="thirdBanner--block">
+          <div class="thirdBanner--block-img">
+            <img src="img/banner3_certificate.jpg" alt="">
+          </div>
+          <div class="thirdBanner--block-content">
+            <h3 class="title-block_content">
+              Áp dụng Công nghệ cao và Tự động hóa
+            </h3>
+            <p class = "content-block">
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            </p>
+          </div>
+        </div>
+        
+        
+      </div> -->
+
+
+      <!-- PHẦN THAY THẾ CHO BANNER 3 -->
+<!--  -->
+      <main class="cards" >
+        <article class="card">
+          <img src="IMG/banner3_highTech.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Áp dụng Công nghệ cao và Tự động hóa</h3>
+            <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+            <button>Xem thêm</button>
+          </div>
+        </article>
+        
+        <article class="card">
+          <img src="IMG/banner3_highCapacity.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Quy mô lớn, đảm bảo nguồn cung</h3>
+            <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+            <button>Xem thêm</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="IMG/banner3_clearFood.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Sản phẩm hữu cơ, an toàn</h3>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+            <button>Xem thêm</button>
+          </div>
+        </article>
+        <article class="card">
+          <img src="IMG/banner3_certificate.jpg" alt="Sample photo">
+          <div class="text">
+            <h3>Chứng nhận VietGap và các tiêu chuẩn Châu Âu</h3>
+            <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+            <button>Xem thêm</button>
+          </div>
+        </article>
+      </main>
+<!--  -->
+
+
+      <!-- BANNER 4 -->
+      <div class="main--container-forthBanner">
+        <div class="h2--white">
+          <h2>Đăng ký thăm quan trang trại <br />của chúng tôi </h2>
+        </div>
+        <div class="input input--discount">
+          <input type="text" placeholder="Số điện thoại" />
+          <button>ĐĂNG KÝ</button>
+        </div>
+      </div>
+
+
+      <!-- BANNER 5 -->
+      <div class="main--container-fifthBanner">
+        <div class="fifthBanner-blockLeft">
+          <img src="img/banner6_eggs.jpg" alt="" />
+        </div>
+        <div class="fifthBanner-blockRight">
+          <div class="blockRight-wrapper">
+            <div class="h3--gold"><h3>Trang trại gà</h3></div>
+            <div class="h1--black"><h1>Quy mô 50000 con, hiệu suất trung bình > 95%</h1></div>
+            <div class="p--black">
+              <p>
+                Gà được chăm sóc trong môi trường vô khuẩn, thông thoáng.
+                Được ăn uống cám hữu cơ, được nghe nhạc, cung cấp ánh sáng đầy đủ
+                để đảm bảo điều kiện cho ra những quả trứng tốt nhất.
+              </p>
+            </div>
+            <div class="button button--send-red">
+              <a href="Store.html"><button>XEM THÊM</button></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="main--container-sixthBanner">
+        <div class="sixthBanner-blockRight">
+          <img src="img/banner6_eggs.jpg" alt="" />
+        </div>
+        <div class="sixthBanner-blockLeft">
+          <div class="b lockRight-wrapper">
+            <div class="h3--gold"><h3>Nhà thủy canh</h3></div>
+            <div class="h1--black"><h1>Trồng rau không cần đất</h1></div>
+            <div class="p--black">
+              <p>
+                Công nghệ trồng rau thủy canh của chúng tôi
+                được chuyển giao kĩ thuật từ đội ngũ kĩ sư 
+                Israel. Sơ dừa qua xử lý thay thế cho đất, hệ thống
+                đường nước được pha dinh dưỡng sẽ tự động chảy
+                theo giờ đã hẹn sẵn.
+              </p>
+            </div>
+            <div class="button button--send-red">
+              <a href="Store.html"><button>XEM THÊM</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="sixthBanner-blockRight">
+          <img src="img/banner6_waterPlants.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer--top-container">
+        <div class="footer--overlay"></div>
+        <div class="block block-about">
+          <ul>
+            <div class="footer_logo">
+              <img src="img/logo3_withText.png" alt="">
+            </div>
+            <p>
+              <strong style="font-size:large;">
+                Công Ty Cổ Phần Nông Nghiệp Ứng Dụng <br> 
+                Công Nghệ Cao CLEAR ALGRICULTURE
+              </strong>
+              <br><br>
+              Địa chỉ: Tầng 10, Tòa nhà Viwaseen – Số 48 Tố Hữu, <br> P. Trung Văn, Q. Nam Từ Liêm, Hà Nội, Việt Nam
+            </p>
+            <br>
+          </ul>
+          <div class="footer-icon">
+            <div class="icon icon-facebook">
+              <i class="fab fa-facebook-square"></i>
+            </div>
+            <div class="icon icon-insta">
+              <i class="fab fa-instagram-square"></i>
+            </div>
+            <div class="icon icon-twitter">
+              <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="icon icon-youtube">
+              <i class="fab fa-youtube-square"></i>
+            </div>
+          </div>
+        </div>
+        <div class="block block-content">
+          <ul>
+            <li>
+              <a href=""><span>CHỨNG CHỈ</span></a>
+            </li>
+            <li><a href="">VietGap</a></li>
+            <li><a href="">ISO</a></li>
+            <li><a href="">FSC</a></li>
+            <li><a href="">USDA</a></li>
+          </ul>
+        </div>
+        <div class="block block-Brands">
+          <ul>
+            <li>
+              <a href=""><span>GIỚI THIỆU</span></a>
+            </li>
+            <li><a href="">Dự án</a></li>
+            <li><a href="">Lĩnh vực</a></li>
+            <li><a href="">Công Nghệ</a></li>
+            <li><a href="">Đối tác</a></li>
+            <li><a href="">Truyền thông</a></li>
+            <li><a href="">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="block block-Career">
+          <a href=""><span>TƯ VẤN</span></a>
+          <div class="input inpute--career">
+            <input type="text" placeholder="Họ và Tên" />
+          </div>
+          <div class="input inpute--career">
+            <input type="text" placeholder="Điện thoại" />
+          </div>
+          <div class="input inpute--career">
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input inpute--career">
+            <input type="text" placeholder="Nội dung" />
+          </div>
+          <div class="button button--send-red">
+            <button>GỬI</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer--line"></div>
+      <div class="footer--bottom-container">
+        <div class="footer--title-copyright">
+          <h3>© 2017 Clear Algriculture Company. All rights reserved.</h3>
+        </div>
+        
+      </div>
+    </footer>
+    
+  </body>
+  <script src="js/all.min.js"></script>
+   <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</html>

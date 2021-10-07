@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+button{
+    cursor: pointer;
+}
+*:focus {
+    outline: none;
+}
+
+.main--container-firstBanner{
+    width: 100%;
+    height: auto;
+    padding-top: 85px;
+}
+.main--container-firstBanner img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px ;
+}
+div.wrapper--about{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px !important
+}
+.wrapper--cokeDes{
+    max-width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wrapper--about-block{
+    margin: 20px;
+}
+.title-block_quote{
+    font-family: 'playfair';
+    font-size: 90px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-bottom: -20px;
+    margin-right: 5px;
+}
+.title-block_content{
+    font-family: 'playfair';
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 400;
+    font-style: normal;
+}
+.title-block{
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.cokeDes-block{
+    margin: 10px;
+}
+.cokeDes-block-img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cokeDes-block-img img{
+    width: 102px;
+    height: 170px;
+}
+
+.button--choose-black{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+.cokeDes-block-name{
+    text-align: center;
+}
+
+.cokeDes-block-name h3{
+    font-weight: 600;
+    color: black;
+}
+
+.button--choose-black button{
+    width: 109px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.main--container-thirdBanner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.thirdBanner--block{
+    flex: 0 0 40%  !important;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.thirdBanner--block-img img{
+    width: 70%;
+    height: 70%;
+}
+
+
+.block--overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+
+.h1--white{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24;
+}
+
+/* ---------------------CSS THAY THẾ BANNER 3----------------- */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    flex: 0 0 48%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    width: 516px;
+    height: 325px;
+    margin-bottom: 1vw;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: rgb(227 52 19 / 93%);
+    border: 0;
+    color: white;
+    padding: 10px;
+    margin-top: 1vw;
+    width: 100%;
+    }
+
+/*  ----------------------- END-------------------------  */
+
+.main--container-forthBanner{
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    width: 100%;
+    height: 270px;
+    background-image: url("../img/background_image.jpeg");
+      background-attachment: fixed;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+.h2--white{
+    padding-top:50px ;
+    margin-bottom: 25px ;
+    padding-left: 5%;
+}
+
+
+.input--discount{
+    margin-top: 15px ;
+}
+
+.input--discount input{
+    margin-left: 5%;
+    border: 1px solid #000000;
+}
+
+.fifthBanner-blockLeft{
+    width: 50%;
+}
+
+.input--discount button{
+    margin-left:-10px ;
+    border: none;
+    background-color: rgb(227 52 19 );
+    color: white;
+    border: 1px solid #000000;
+    width: 76px;
+    height: 39px;
+}
+
+.fifthBanner-blockRight{
+    width: 50%;
+    margin-top: 50px ;
+}
+
+.main--container-fifthBanner{
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+}
+
+.input-wrapper{
+    display: flex;
+    align-items: center;
+}
+main .button--send-red button{
+    margin-top: unset;
+}
+
+.input--customize{
+    margin-right: 20px;   
+}
+
+.input--customize{
+    width: 70%;
+}
+
+.main--container-fifthBanner{
+    padding-right: 14px ;
+}
+
+.main--container-sixthBanner{
+      padding-left: 14px;
+
+}
+
+.fifthBanner-blockLeft img{
+    width: 80%;
+}
+
+.h1--black{
+  font-size: 3.2vh;
+  margin-bottom: 10px ;
+  
+}
+
+.p--black{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom:20px ;
+}
+
+.input--customize input{
+    border: 1px solid #FF0000;
+    border-radius: 30px;
+    background: #FFFDFD;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.h3--gold{
+ font-size: 16px;
+  background: -webkit-linear-gradient(#C88622
+, #C88622);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main--container-sixthBanner{
+    margin: auto;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.sixthBanner-blockLeft{
+    width: 60%;
+    margin-right: 10%;
+}
+
+
+.sixthBanner-blockRight{
+    width: 50%;
+}
+
+.sixthBanner-blockRight img{
+    width: 100%;
+    height: 544px;
+}
+
+.sixthBanner-blockLeft button{
+    width: 125px;
+}
+
+.sixthBanner-blockRight:first-child{
+    display: none;
+}
+
+/* effect style */
+
+.button--choose-black button:hover{
+    background-color: #37c105;
+    cursor: pointer;
+}
+
+main .button--send-red button:hover{ 
+    background-color: #37c105;
+}
+
+.input--discount button:hover{
+    background-color: #37c105;
+    cursor: pointer;
+}
+
+.h1--white h1:hover{
+    color: #37c105;
+}
+/* responsive */
+@media only screen and (max-width: 800px){
+    .main--container-fifthBanner{
+        display: block;
+    }
+    .fifthBanner-blockLeft{
+        width: 60%;
+        margin: auto;
+        margin-left:30% ;
+    }
+
+    .fifthBanner-blockRight{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .main--container-sixthBanner{
+        display: block;
+    }
+    .sixthBanner-blockRight:first-child{
+    display: block;
+    width: 60%;
+        margin: auto;
+}
+    .sixthBanner-blockRight:last-child{
+    display: none;
+    }
+    .sixthBanner-blockLeft{
+         width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 30px ;
+    }
+
+    .wrapper--cokeDes{
+        max-width: 60%;
+        flex-wrap: wrap;
+    }
+
+    .h1--white, .h1--black{
+        font-size: 18px;
+    }
+
+    .cokeDes-block{
+        width: 42%;
+    }
+
+    
+ 
+}
+
+@media only screen and (max-width: 600px){
+ 
+    .wrapper--cokeDes{
+        max-width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .input--discount input{
+        width: 200px;
+    }
+    .input-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .input--customize{
+        width: 100%;
+    }
+    .button--send-red{
+        margin-top: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px){
+    h1{
+        font-size: 22px;
+    }
+}
